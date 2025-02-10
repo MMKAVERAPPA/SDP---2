@@ -1,12 +1,36 @@
-* {
-    margin: 0; /* Changed from 100px */
-    padding: 0; /* Changed from 100px */
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
 }
 
-#section {
-    background-color: aliceblue;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid black;
+.navbar {
+    margin-bottom: 20px;
+}
+
+header {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
 }

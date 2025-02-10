@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza System</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .text-blue { color: blue; }  /* Example text color */
+        .text-red { color: red; }
+        .text-center { text-align: center; }
+        .text-left { text-align: left; }
+        .text-right { text-align: right; }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand text-blue" href="page.html">Pizza System</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-red" aria-current="page" href="page.html">Pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-blue" href="add_pizza.html">Add Pizza</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn-primary ml-3" data-toggle="modal" data-target="#registerCarModal">Order Pizza</button>
+                <button class="btn btn-danger ml-2">View Pizza Status</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container" style ="font-size: x-large;">
+        <p class="text-center text-blue mt-4">Welcome to the Pizza System</p>
+    </div>
+    
+
+    <div class="container mt-4">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr class="text-center">
+                    <th>#</th>
+                    <th>Pizza Id</th>
+                    <th>Name</th>
+                    <th>Size</th>
+                    <th>Category</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-center" style="background-color: beige;">
+                    <td>1</td>
+                    <td>ABC-123</td>
+                    <td>Chicken Pizza</td>
+                    <td>Small</td>
+                    <td>Food</td>
+                    <td>
+                        <a href="edit_pizza.html?q=1" class="btn btn-warning btn-sm" tabindex="-1" role="button" aria-disabled="true">Edit</a>
+                        <a href="delete_pizza.html?q=1" class="btn btn-danger btn-sm" tabindex="-1" role="button" aria-disabled="true">Delete</a>
+                    </td>
+                </tr>
+                <tr class="text-center" style="background-color:khaki;">
+                    <td>2</td>
+                    <td>XYZ-456</td>
+                    <td>Veg pizza</td>
+                    <td>Medium</td>
+                    <td>Food</td>
+                    <td>
+                        <a href="edit_pizza.html?q=2" class="btn btn-warning btn-sm" tabindex="-1" role="button" aria-disabled="true">Edit</a>
+                        <a href="delete_pizza.html?q=2" class="btn btn-danger btn-sm" tabindex="-1" role="button" aria-disabled="true">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Pizza</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .text-blue { color: blue; }
+        .text-red { color: red; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand text-blue" href="page.html">Pizza System</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-red" href="page.html">Pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-blue active" href="add_pizza.html">Add Pizza</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <h2 class="text-center text-blue">Edit the New Pizza</h2>
+        <form>
+            <div class="form-group">
+                <label class="text-red">Pizza ID</label>
+                <input type="text" class="form-control" placeholder="Enter pizza ID">
+            </div>
+            <div class="form-group">
+                <label class="text-blue">Name</label>
+                <input type="text" class="form-control" placeholder="Enter pizza name">
+            </div>
+            <div class="form-group">
+                <label class="text-red">Size</label>
+                <select class="form-control">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="text-blue">Category</label>
+                <input type="text" class="form-control" placeholder="Enter category (e.g., Veg, Non-Veg)">
+            </div>
+            <button type="submit" class="btn btn-primary">Edit Pizza</button>
+            <a href="page.html" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
