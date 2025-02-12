@@ -1,6 +1,13 @@
-npn create-react-app task-manager  -- used to create react app in a folder
+npm install -g npm             -- to intall the npm in system
+
+npx create-react-app task-manager  -- used to create react app in a folder when creating new react app
 cd task-manager
+npm install web-vitals
 npm start
-npm install
+
 
 npm install react-router-dom
+
+
+
+go mod init example/main    -- to install a new go module inside a folder
