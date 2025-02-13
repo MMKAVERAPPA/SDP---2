@@ -1,0 +1,34 @@
+First create a folder in which you want to make the server -- book-storing-system
+Next create a folder called -- server
+
+Inside client install the react packages -- use npx create-react-app client
+This is used to create a folder called client with a basic react app
+Then inside that install the necessary react packages: axios, react-router-dom, web-vitals
+
+in the index.html paste the necessary url for bootstrap
+
+Inside src create two folder: books and header
+In the books folder you place the necessary js files like BookCreate.js, BookEdit.js, BookList.js, BookView.js
+Place the necessary codes inside it
+Place the header file in the header folder
+
+Make the necessary changes to APP.js
+
+Now in the server folder install the go components 
+-- go mod init example/main
+
+Now create a file called main.go and type in the necessary code 
+Make the sure to connect the server in main.go with the server in the webpage
+And then install the necessary packages from github etc which we have imported -- using go get <url>
+
+and then run the server using go run main.go and client using npm start
+
+Now check in MongoDB that your books are being stored correctly.
+Create a database and collection with the name as in main.go //Config
+Now you can see the data in MongoDB.
+
+In Postman, run a GET request to http://localhost:8080/books to get all the books.
+And you will see the books stored in the database.
+
+
+

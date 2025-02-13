@@ -7,7 +7,8 @@ npm start
 
 
 npm install react-router-dom
-
+npm install axios
 
 
 go mod init example/main    -- to install a new go module inside a folder
+go get <url>            -- to install a package from the given url
