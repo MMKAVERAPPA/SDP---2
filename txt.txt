@@ -1,0 +1,5 @@
+id, name, number_of_players, amount, description
+
+name of the game,
+number_of_players required to play the game
+amount per head to play the game,

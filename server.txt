@@ -1,7 +1,7 @@
 First create a folder in which you want to make the server -- book-storing-system
 Next create a folder called -- server
 
-Inside client install the react packages -- use npx create-react-app client
+Install the react packages -- use npx create-react-app client
 This is used to create a folder called client with a basic react app
 Then inside that install the necessary react packages: axios, react-router-dom, web-vitals
 

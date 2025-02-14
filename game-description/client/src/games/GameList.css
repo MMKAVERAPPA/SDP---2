@@ -1,0 +1,5 @@
+/* Reduce the padding in the DataTable cells */
+.custom-datatable .p-datatable-tbody > tr > td {
+    padding: 0.25rem;  /* Adjust this value as needed */
+  }
+  
